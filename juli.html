@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moja strona</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            float: bottom;
+            width: 180px;
+            height: 180px;
+            overflow: hidden;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+            border-radius: 5px;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .gallery-container {
+            display: flex;
+            position: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top:20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="heading-juli">
+        <p class="title-juli">Poznaj naszą kandydatkę</p>
+        <p class="subtitle-juli">Julia Rumińska znana również jako Rum. Jej zainteresowania to sztuka, magia, kryminologia i wygrana w wyborach na prezydenta Perłowic. Młoda, zdolna, zarażająca ciepłem i motywacją. Także piracie Morgan w dłoń i płyń głosować na Rum
+        </p>
+        
+     <div class="gallery-container">
+        <div class="gallery">
+            <a target="_blank" href="juli.jpg">
+                <img src="juli.jpg" alt="Zdjęcie 1" width="600" height="400">
+            </a>
+          
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="juli2.jpg">
+                <img src="juli2.jpg" alt="Zdjęcie 2" width="600" height="400">
+            </a>
+           
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="juli3.jpg">
+                <img src="juli3.jpg" alt="Zdjęcie 3" width="600" height="400">
+            </a>
+            
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="juli4.jpg">
+                <img src="juli4.jpg" alt="Zdjęcie 4" width="600" height="400">
+            </a>
+           
+        </div><a href="project.html">
+            <button class="register-juli">Powrót</button>  
+        </a>
+        <a href="artykul.html">
+            <button class="register-juli">Artykuł</button>  
+        </a>
+    </div>
+    </div>
+</body>
+</html>

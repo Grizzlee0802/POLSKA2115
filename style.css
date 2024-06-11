@@ -1,0 +1,270 @@
+html, body{
+    height: 100%;
+    background-image: url(tło.jpg);
+    background-size: auto;
+    background-position: center;
+    overflow:auto;
+}
+
+*{
+    color:whitesmoke
+}
+.heading{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0px; bottom: 0px; right: 0px; left:0px;
+    
+}
+
+.title{
+    text-align: center;
+    font-size: 175px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: -50px;  
+    text-shadow: 1px 0px 4px #e2dfe2, 2px 0px 4px #FFD5FF, 3px 0px 4px #e7e3e7, 2px 0px 3px #c5b9c4, 2px 3px 15px #bdb4bc, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #e4e0e3,40px 0vw 200px #e6dae5;
+}
+
+
+.subtitle{
+    text-align: center;
+    word-spacing: 0px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+  
+}
+
+.register{
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px auto;
+    display:block;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 800ms;
+    
+}
+.register:hover{
+    background-color: white;
+    color: #222222;
+    transition: background-color 800ms;
+}
+
+.heading-program{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0px; bottom: 0px; right: 0px; left:0px;
+    
+}
+
+.title-program{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace; 
+  font-size:130px;
+  color: #ffffff;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+  letter-spacing: 8px;
+  margin-left: 200px;
+  margin-bottom: 0px;
+  margin-top: -50px;
+  text-shadow: 1px 0px 4px #e2dfe2, 2px 0px 4px #ffffff, 3px 0px 4px #e7e3e7, 2px 0px 3px #fafafa, 2px 3px 15px #bdb4bc, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #e4e0e3,40px 0vw 200px #e6dae5;
+}
+.subtitle-program{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: -50px;
+  
+}
+.program{
+    text-align: left;
+    font-size: 25px;
+    list-style-position: inside;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    line-height: px;
+
+}
+.register-program{
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 800ms;
+    display: inline;
+    
+}
+.register-program:hover{
+    background-color: white;
+    color: #222222;
+    transition: background-color 800ms;
+}
+.heading-juli{
+    width: 1000px;
+    height: 400px;
+    margin:auto;
+    position: absolute;
+    top: 0px; bottom: 0px; right: 0px; left:0px;
+    
+}
+
+.title-juli{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace; 
+  font-size:100px;
+  color: #ffffff;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+  letter-spacing: 8px;
+  line-height: normal;
+  word-spacing: normal;
+  margin-left: 500px;
+  margin-bottom: -200px;
+  margin-top: 0px;
+  text-shadow: 1px 0px 4px #e2dfe2, 2px 0px 4px #ffffff, 3px 0px 4px #e7e3e7, 2px 0px 3px #fafafa, 2px 3px 15px #bdb4bc, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #e4e0e3,40px 0vw 200px #e6dae5;
+}
+.subtitle-juli{
+    text-align: center;
+    word-spacing: 0px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+  
+}
+.quote-container {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.quote-block {
+    width: 50%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: transparent; /* Ukrywa tło kontenera */
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.5s, width 0.5s, height 0.5s, padding 0.5s;
+    cursor: pointer;
+    border: none; /* Usuwa obramowanie kontenera */
+    box-shadow: none; /* Usuwa cień kontenera */
+}
+.quote-title {
+    font-weight: bold; /* Ustawia pogrubienie tekstu */
+    font-size: 35px; /* Delikatnie większy rozmiar tekstu */
+    quotes: "“" "”"; /* Ustawia cudzysłowy */
+}
+
+.quote-title::before,
+.quote-title::after {
+    content: open-quote;
+    font-size: 30px; /* Rozmiar czcionki cudzysłowów */
+}
+
+.quote-title::after {
+    content: close-quote;
+}
+
+.quote-block:hover {
+    transform: scale(1.5);
+    width: 55%;
+    padding: 30px;
+}
+
+.article-info {
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.author, .page-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+.register-juli{
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px 125px;
+    display:inline;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 800ms;
+}
+.register-juli:hover{
+    background-color: white;
+    color: #222222;
+    transition: background-color 800ms;
+}
+
+.register-art{
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px auto;
+    display:block;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 800ms;
+}
+.register-art:hover{
+    background-color: white;
+    color: #222222;
+    transition: background-color 800ms;
+}
+
+
+.flicker-slow{
+  animation: flicker 3s linear infinite;
+}
+
+.flicker-fast{
+  animation: flicker 1s linear infinite;
+}
+
+@keyframes flicker {
+	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+		//text-shadow: none;
+    opacity: .99;
+		
+	}
+	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+		opacity: 0.4;
+	}
+}
+
